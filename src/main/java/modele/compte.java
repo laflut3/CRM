@@ -1,3 +1,5 @@
+package modele;
+
 public class compte {
     private int numero;
     private String description;
@@ -29,6 +31,6 @@ public class compte {
 
     @Override
     public String toString(){
-        return "numéro de compte : " + numero + " - " + description;
+        return "numéro de modele compte : " + numero + " - " + description;
     }
 }
