@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3135eb8-ba5b-4e63-9204-8cf264f15c02" name="Changes" comment="" />
+    <list default="true" id="a3135eb8-ba5b-4e63-9204-8cf264f15c02" name="Changes" comment="feat() : script base de donnée">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ihm/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ihm/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stockage/sql/StockageCompteDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/FXML/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/FXML/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AppCRM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppCRM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modele/compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modele/Compte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stockage/Stockage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stockage/Stockage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,15 +45,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.PrincipalPage.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/jean-mulet/IUT/annee 2/semestre 3/SQL/TD4-java&sql",
+    "last_opened_file_path": "/home/jean-mulet/IUT/annee 2/semestre 4/Qualité de dev/tp4",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/DATABASE" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -60,7 +88,75 @@
       <updated>1709539918076</updated>
       <workItem from="1709539919239" duration="5000" />
       <workItem from="1709568770821" duration="130000" />
+      <workItem from="1709568993302" duration="3010000" />
+      <workItem from="1709710314484" duration="21000" />
+      <workItem from="1709804181798" duration="1618000" />
     </task>
+    <task id="LOCAL-00001" summary="compte">
+      <option name="closed" value="true" />
+      <created>1709569235216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709569235216</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat() : ajout modéle compte">
+      <option name="closed" value="true" />
+      <created>1709569554743</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709569554743</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat() : ajout modéle utilisateur">
+      <option name="closed" value="true" />
+      <created>1709569567562</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709569567562</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat() : ajout modéle transaction">
+      <option name="closed" value="true" />
+      <created>1709569776113</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709569776113</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat() : ajout connection base de donnée">
+      <option name="closed" value="true" />
+      <created>1709569823808</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709569823808</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat() : ajout interface de stockage">
+      <option name="closed" value="true" />
+      <created>1709569841385</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709569841385</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat() : shéma base de donné">
+      <option name="closed" value="true" />
+      <created>1709570748212</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709570748212</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat() : script base de donnée">
+      <option name="closed" value="true" />
+      <created>1709570764787</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709570764787</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +172,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="compte" />
+    <MESSAGE value="feat() : ajout modéle compte" />
+    <MESSAGE value="feat() : ajout modéle utilisateur" />
+    <MESSAGE value="feat() : ajout modéle transaction" />
+    <MESSAGE value="feat() : ajout connection base de donnée" />
+    <MESSAGE value="feat() : ajout interface de stockage" />
+    <MESSAGE value="feat() : shéma base de donné" />
+    <MESSAGE value="feat() : script base de donnée" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat() : script base de donnée" />
   </component>
 </project>
