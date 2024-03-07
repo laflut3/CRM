@@ -1,15 +1,15 @@
 package modele;
 
-public class compte {
+public class Compte {
     private int numero;
     private String description;
 
-    public compte(int numero, String description) {
+    public Compte(int numero, String description) {
         this.numero = numero;
         this.description = description;
     }
 
-    public compte(){
+    public Compte(){
 
     }
 
